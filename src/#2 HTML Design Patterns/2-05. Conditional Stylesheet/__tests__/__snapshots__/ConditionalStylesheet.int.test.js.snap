@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConditionalStylesheet /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="conditional-stylesheet"
+  >
+    <h1>
+      Conditional Stylesheet
+    </h1>
+    <p
+      class="conditional-stylesheet__test"
+    >
+      In Internet Explorer 6, this box has a border and background. Look at the README for the full document
+    </p>
+  </div>
+</div>
+`;

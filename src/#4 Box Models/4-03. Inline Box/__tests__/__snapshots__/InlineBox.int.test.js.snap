@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineBox /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="inline-box"
+  >
+    <h1>
+      Inline Box
+    </h1>
+    <div
+      class="container"
+    >
+      <span
+        class="default"
+      >
+        BEFORE
+      </span>
+      <span
+        class="box"
+      >
+        ← Left   ↑ Top   Bottom ↓   Right → 
+      </span>
+      <span
+        class="default"
+      >
+        AFTER
+      </span>
+    </div>
+  </div>
+</div>
+`;

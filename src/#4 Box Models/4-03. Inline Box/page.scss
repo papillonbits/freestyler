@@ -1,0 +1,40 @@
+.inline-box {
+  *.container {
+    border: 1px solid gray;
+  }
+
+  *.default {
+    visibility: visible;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: gold;
+    line-height: normal;
+  }
+
+  *.box {
+    display: inline;
+    visibility: visible;
+    overflow: scroll;
+    width: 99999px;
+    height: 99999px;
+    margin-top: 99999px;
+    margin-right: 100px;
+    margin-bottom: 99999px;
+    margin-left: 100px;
+    padding: 20px 120px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: gold;
+    line-height: 100px;
+
+    /* The following border and backgound rules are used in other examples. */
+
+    /* The following rules have no effect, so I set them to outrageous values. */
+  }
+}

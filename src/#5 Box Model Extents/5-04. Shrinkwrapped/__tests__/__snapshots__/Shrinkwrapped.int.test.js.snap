@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Shrinkwrapped /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="shrinkwrapped"
+  >
+    <h1>
+      Shrinkwrapped
+    </h1>
+    <div
+      class="gp"
+    >
+      Positioned Grandparent
+      <div
+        class="parent"
+      >
+        Non-positioned Parent
+        <span
+          class="z"
+          id="float"
+        >
+          Shrinkwrapped Float
+        </span>
+        <span
+          class="z"
+          id="inline"
+        >
+          Shrinkwrapped Static Inline
+        </span>
+        <br />
+        <img
+          alt="star"
+          id="star"
+          src="mock-file"
+        />
+        <div
+          class="z"
+          id="block"
+        >
+          Vertically Shrinkwrapped Static Block
+        </div>
+        <table
+          class="z"
+          id="table"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Shrinkwrapped Table
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <span
+          class="z"
+          id="abs"
+        >
+          Shrinkwrapped Absolute
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

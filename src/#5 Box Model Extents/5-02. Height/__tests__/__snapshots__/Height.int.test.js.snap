@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Height /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="height"
+  >
+    <h1>
+      Height
+    </h1>
+    <div
+      class="parent"
+      id="div1"
+    >
+      <div
+        class="s1"
+      >
+        <img
+          alt="star"
+          class="replaced-inline-shrinkwrapped box"
+          src="mock-file"
+        />
+      </div>
+      <div
+        class="s2"
+      >
+        <img
+          alt="star"
+          class="replaced-inline-sized box"
+          src="mock-file"
+        />
+      </div>
+      <div
+        class="s3"
+      >
+        <img
+          alt="star"
+          class="replaced-inline-stretched box"
+          src="mock-file"
+        />
+      </div>
+       
+    </div>
+    <div
+      class="parent"
+      id="div2"
+    >
+      <div
+        class="s1"
+      >
+        <div
+          class="block-shrinkwrapped box"
+        >
+          Block Shrinkwrapped
+        </div>
+      </div>
+      <div
+        class="s2"
+      >
+        <div
+          class="block-sized box"
+        >
+          Block Sized
+        </div>
+      </div>
+      <div
+        class="s3"
+      >
+        <div
+          class="block-stretched box"
+        >
+          Block Stretched 100%
+        </div>
+      </div>
+       
+    </div>
+    <div
+      class="parent"
+      id="div3"
+    >
+      <div
+        class="s1"
+      >
+        <table
+          class="table-shrinkwrapped box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Shrinkwrapped
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="s2"
+      >
+        <table
+          class="table-sized box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Sized
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="s3"
+      >
+        <table
+          class="table-stretched box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Stretched 100%
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+       
+    </div>
+    <div
+      class="parent"
+      id="div4"
+    >
+      <span
+        class="float-shrinkwrapped box"
+      >
+        Float Shrinkwrapped
+      </span>
+      <span
+        class="float-sized box"
+      >
+        Float Sized
+      </span>
+      <span
+        class="float-stretched box"
+      >
+        Float Stretched 100%
+      </span>
+       
+    </div>
+    <div
+      class="parent"
+      id="div5"
+    >
+      <span
+        class="absolute-shrinkwrapped box"
+      >
+        Absolute Shrinkwrapped
+      </span>
+      <span
+        class="absolute-sized box"
+      >
+        Absolute Sized
+      </span>
+      <span
+        class="absolute-stretched box"
+      >
+        Absolute Stretched Auto
+      </span>
+       
+    </div>
+  </div>
+</div>
+`;

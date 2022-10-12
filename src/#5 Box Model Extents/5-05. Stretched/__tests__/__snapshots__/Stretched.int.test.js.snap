@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stretched /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="stretched"
+  >
+    <h1>
+      Stretched
+    </h1>
+    <div
+      class="gp"
+    >
+      Positioned Grandparent
+      <div
+        class="parent"
+      >
+        Non-positioned Parent
+        <span
+          class="s"
+          id="inline"
+        >
+          Cannot stretch a static inline
+        </span>
+        <div
+          id="sized"
+        >
+          <img
+            alt="star"
+            id="star"
+            src="mock-file"
+          />
+        </div>
+        <div
+          class="s"
+          id="block"
+        >
+          Horizontally Stretched Static Block
+        </div>
+        <table
+          class="s"
+          id="table"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Horiz. Stretched Table
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="s"
+          id="abs-v"
+        >
+          Vertically Stretched Absolute
+        </div>
+        <span
+          class="s"
+          id="abs-h"
+        >
+          Horizontally Stretched Absolute
+        </span>
+        <span
+          class="s"
+          id="float"
+        >
+          Almost Stretched Float
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

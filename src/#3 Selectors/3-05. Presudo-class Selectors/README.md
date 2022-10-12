@@ -1,0 +1,46 @@
+HTML
+```html
+ <h1>Pseudo-class Selectors</h1>
+ <p>
+  <a href="http://www.cssdesignpatterns.com">a:link -- unvisited link</a>
+  <a href="http://www.htmldesignpatterns.com">a:visited -- visited link</a>
+  <a href="http://www.cssdesignpatterns.com">a:hover -- mouse hovering</a>
+  <a href="http://www.cssdesignpatterns.com">a:active -- visiting a link</a>
+</p>
+```
+
+CSS
+```scss
+  a {
+    padding: 3px 10px;
+    margin: 20px 10px;
+    text-decoration: none;
+    display: block;
+    width: 260px;
+    border-left: 1px solid dimgray;
+    border-right: 2px solid black;
+    border-top: 1px solid dimgray;
+    border-bottom: 2px solid black;
+  }
+
+  a:link {
+    color: black;
+    background-color: white;
+  }
+
+  a:visited {
+    color: gray;
+    background-color: white;
+  }
+
+  a:hover {
+    color: white;
+    background-color: green;
+  }
+
+  a:active,
+  a:focus {
+    color: green;
+    background-color: gold;
+  }
+```

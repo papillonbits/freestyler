@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PseudoClassSelectors /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="pseudo-class-selectors"
+  >
+    <h1>
+      Pseudo-class Selectors
+    </h1>
+    <p>
+      <a
+        href="http://www.cssdesignpatterns.com"
+      >
+        a:link -- unvisited link
+      </a>
+      <a
+        href="http://www.htmldesignpatterns.com"
+      >
+        a:visited -- visited link
+      </a>
+      <a
+        href="http://www.cssdesignpatterns.com"
+      >
+        a:hover -- mouse hovering
+      </a>
+      <a
+        href="http://www.cssdesignpatterns.com"
+      >
+        a:active -- visiting a link
+      </a>
+    </p>
+  </div>
+</div>
+`;

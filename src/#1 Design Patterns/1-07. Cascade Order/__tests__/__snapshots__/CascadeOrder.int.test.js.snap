@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CascadeOrder /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="cascade-order"
+  >
+    <div
+      class="c10"
+      id="i100"
+    >
+      !important has highest priority.
+    </div>
+  </div>
+</div>
+`;

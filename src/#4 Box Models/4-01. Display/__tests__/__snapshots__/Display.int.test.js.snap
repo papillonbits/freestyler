@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Display /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="display"
+  >
+    <h1>
+      Display
+    </h1>
+    <code>
+      display:inline
+    </code>
+    <p>
+      p
+    </p>
+     
+    <p>
+      p
+    </p>
+     
+    <p>
+      p
+    </p>
+    <ol>
+       
+      <li>
+        li
+      </li>
+       
+      <li>
+        li
+      </li>
+       
+      <li>
+        li
+      </li>
+       
+    </ol>
+    <table>
+      <tr>
+        <td>
+          td
+        </td>
+        <td>
+          td
+        </td>
+      </tr>
+      <tr>
+        <td>
+          td
+        </td>
+        <td>
+          td
+        </td>
+      </tr>
+    </table>
+    <strong>
+      strong 
+      <br />
+      <code>
+        display:inline-block
+      </code>
+    </strong>
+     
+    <br />
+    <br />
+    <em>
+      em 
+      <code>
+        display:block
+      </code>
+    </em>
+     
+    <em>
+      em
+    </em>
+     
+    <br />
+    <div
+      class="ul"
+    >
+      <dfn>
+        dfn 
+        <code>
+          display:list-item
+        </code>
+      </dfn>
+      <dfn>
+        dfn
+      </dfn>
+    </div>
+    <br />
+    <img
+      alt="star"
+      src="mock-file"
+    />
+     
+    <code>
+      display:none
+    </code>
+    <div
+      class="table"
+    >
+      div display:table
+    </div>
+    <div
+      class="row"
+    >
+      div display:table-row
+    </div>
+    <div
+      class="cell"
+    >
+      div display:table-cell
+    </div>
+    <span
+      class="inline-table"
+    >
+      <span
+        class="row"
+      >
+        <span
+          class="cell"
+        >
+          span
+        </span>
+        <span
+          class="cell"
+        >
+          span 
+          <code>
+            display:inline-table
+          </code>
+        </span>
+      </span>
+      <span
+        class="row"
+      >
+        <span
+          class="cell"
+        >
+          span
+        </span>
+        <span
+          class="cell"
+        >
+          span
+        </span>
+      </span>
+    </span>
+    <div
+      class="table"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="cell"
+        >
+          div 
+          <code>
+            display:table
+          </code>
+        </div>
+        <div
+          class="cell"
+        >
+          div
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="cell"
+        >
+          div
+        </div>
+        <div
+          class="cell"
+        >
+          div
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

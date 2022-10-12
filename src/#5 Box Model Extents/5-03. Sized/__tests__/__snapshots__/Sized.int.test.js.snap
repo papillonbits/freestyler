@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sized /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="sized"
+  >
+    <h1>
+      Sized
+    </h1>
+    <div
+      class="gp"
+    >
+      Positioned Grandparent
+      <div
+        class="parent"
+      >
+        Non-positioned Parent
+        <div
+          class="z"
+          id="float"
+        >
+          Sized Float
+        </div>
+        <div
+          class="z"
+          id="static"
+        >
+          Sized Static
+        </div>
+        <table
+          class="z"
+          id="table"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Sized Table
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <span
+          class="z"
+          id="abs"
+        >
+          Sized Absolute
+          <img
+            alt="star"
+            id="star"
+            src="mock-file"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

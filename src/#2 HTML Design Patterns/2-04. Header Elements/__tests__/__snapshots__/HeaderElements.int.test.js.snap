@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderElements /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="header-elements"
+  >
+    <h1>
+      Header Elements
+    </h1>
+     
+    <p>
+      Look at the README to see the header
+    </p>
+  </div>
+</div>
+`;

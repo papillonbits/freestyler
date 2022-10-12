@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubclassSelector /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="subclass-selector"
+  >
+    <h1>
+      Subclass Selector
+    </h1>
+    <div>
+      <p
+        class="button square"
+      >
+        Square
+      </p>
+      <p
+        class="button rounded"
+      >
+        Rounded
+      </p>
+      <p
+        class="button go"
+      >
+        Go
+      </p>
+    </div>
+  </div>
+</div>
+`;

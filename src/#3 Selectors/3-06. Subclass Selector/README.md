@@ -1,0 +1,45 @@
+HTML
+```html
+ <h1>Subclass Selector</h1>
+<div>
+<p class="button square">Square</p> <p class="button rounded">Rounded</p> <p class="button go">Go</p>
+</div>
+```
+
+CSS
+```scss
+  *.button {
+    width: 175px;
+    padding: 3px 10px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    line-height: normal;
+  }
+
+  *.button.square {
+    color: darkblue;
+    background-color: gold;
+    border-left: 1px solid dimgray;
+    border-right: 2px solid black;
+    border-top: 1px solid dimgray;
+    border-bottom: 2px solid black;
+  }
+
+  *.button.rounded {
+    color: darkblue;
+    background-color: white;
+    line-height: 45px;
+    margin-top: 30px;
+    background: url("oval.gif") no-repeat center center;
+  }
+
+  *.button.go {
+    background-color: white;
+    line-height: 26px;
+    text-indent: -9999px;
+    font-size: 10px;
+    background: url("go.jpg") no-repeat center center;
+  }
+```

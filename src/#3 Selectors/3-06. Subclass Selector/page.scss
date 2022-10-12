@@ -1,0 +1,36 @@
+.subclass-selector {
+  *.button {
+    width: 175px;
+    margin: 20px 0;
+    margin-left: 50px;
+    padding: 3px 10px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+  }
+
+  *.button.square {
+    border-top: 1px solid dimgray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid dimgray;
+    background-color: gold;
+    color: darkblue;
+  }
+
+  *.button.rounded {
+    margin-top: 30px;
+    background: url('oval.gif') no-repeat center center;
+    background-color: white;
+    line-height: 45px;
+    color: darkblue;
+  }
+
+  *.button.go {
+    background: url('go.jpg') no-repeat center center;
+    background-color: white;
+    font-size: 10px;
+    line-height: 26px;
+    text-indent: -9999px;
+  }
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CSSSyntax /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="css-syntax"
+  >
+    <p>
+      CSS syntax is 
+      <span
+        style="font-style: italic;"
+      >
+        EASY!
+      </span>
+    </p>
+  </div>
+</div>
+`;

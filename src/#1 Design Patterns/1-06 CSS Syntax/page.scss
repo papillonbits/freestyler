@@ -1,0 +1,20 @@
+body .css-syntax {
+  margin: 1em;
+  padding: 0.25em;
+  border: 4px double black;
+  background-image: url('gradient.gif');
+  background-repeat: repeat-x;
+  font-family: 'Century Gothic', verdana, arial, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.css-syntax {
+  p {
+    margin: 0;
+  }
+
+  span {
+    font-weight: 900;
+  }
+}

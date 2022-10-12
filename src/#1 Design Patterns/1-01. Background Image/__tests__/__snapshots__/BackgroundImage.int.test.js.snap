@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackgroundImage /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="background-image"
+  >
+    <h1>
+      Background Image
+    </h1>
+    <div
+      class="background-image__image"
+    />
+  </div>
+</div>
+`;

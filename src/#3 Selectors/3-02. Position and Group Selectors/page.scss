@@ -1,0 +1,54 @@
+.position-group-selectors {
+  /* Group Selectors */
+
+  p,
+  ol,
+  li {
+    margin: 10px;
+    margin-left: 0;
+    padding-left: 10px;
+    border: 1px solid black;
+    font-family: monospace;
+  }
+
+  ol {
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 40px;
+  }
+
+  /* Position Selectors */
+
+  div *.my-class {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  /* Descendant  Selector */
+
+  #my-id p {
+    background-color: gold;
+  }
+
+  /* Descendant  Selector */
+
+  #my-id > * {
+    border: 3px solid black;
+  }
+
+  /* Child       Selector */
+
+  li:first-child {
+    font-weight: bold;
+    color: red;
+  }
+
+  /* First-child Selector */
+
+  li + li {
+    font-style: italic;
+    color: blue;
+  }
+
+  /* Sibling     Selector */
+}

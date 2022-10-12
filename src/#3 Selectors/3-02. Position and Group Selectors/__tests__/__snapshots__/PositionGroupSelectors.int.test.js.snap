@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PositionGroupSelectors /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="position-group-selectors"
+  >
+    <h1>
+      Position and Group Selectors
+    </h1>
+    <p
+      class="my-class"
+    >
+      p.my-class
+    </p>
+    <div
+      id="my-id"
+    >
+      <ol>
+        <li>
+          div ol li
+        </li>
+        <li>
+          div ol li
+        </li>
+        <li>
+          <p
+            class="my-class"
+          >
+            div ol li p.my-class
+          </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;

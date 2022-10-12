@@ -1,0 +1,61 @@
+.absolute-box {
+  *.container {
+    position: relative;
+    border: 1px solid gray;
+    text-align: center;
+  }
+
+  *.default {
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    visibility: visible;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: gold;
+  }
+
+  *.box {
+    position: absolute;
+    z-index: auto;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    visibility: visible;
+    overflow: auto;
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: gold;
+  }
+
+  *.before {
+    top: 100px;
+    right: auto;
+    bottom: auto;
+    left: 400px;
+    width: 100px;
+    height: auto;
+  }
+
+  *.after {
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 100px;
+    height: auto;
+  }
+}

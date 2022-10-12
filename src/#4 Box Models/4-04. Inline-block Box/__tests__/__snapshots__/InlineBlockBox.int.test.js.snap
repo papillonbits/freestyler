@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineBlockBox /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="inline-block-box"
+  >
+    <h1>
+      Inline-block Box
+    </h1>
+    <div
+      class="container"
+    >
+      <span
+        class="default"
+      >
+        BEFORE
+      </span>
+      <img
+        alt="star"
+        class="replaced-box"
+        src="mock-file"
+      />
+      <span
+        class="default"
+      >
+        AFTER
+      </span>
+      <span
+        class="default"
+      >
+        BEFORE
+      </span>
+      <span
+        class="inline-box"
+      >
+        Inline element displayed as an inline block.
+      </span>
+      <span
+        class="default"
+      >
+        AFTER
+      </span>
+    </div>
+  </div>
+</div>
+`;

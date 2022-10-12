@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeftMarginal /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="left-marginal"
+  >
+    <h1>
+      Left Marginal
+    </h1>
+    <div
+      class="left-marginal__left-marginal"
+    >
+      <h2
+        class="left-marginal__marginal-heading"
+      >
+        Heading
+      </h2>
+      You want to excerpt an element and move it into the left margin.
+    </div>
+  </div>
+</div>
+`;

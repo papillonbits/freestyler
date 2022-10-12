@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructuralBlockElements /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="structural-block-elements"
+  >
+    <h1>
+      Structural Block Elements
+    </h1>
+    <ol>
+      <li />
+      <li>
+         One or more list items... 
+      </li>
+    </ol>
+    <ul>
+      <li />
+      <li>
+         One or more list items... 
+      </li>
+    </ul>
+    <dl>
+      <dt />
+      <dt>
+         One or more definition terms... 
+      </dt>
+      <dd />
+      <dd>
+         One or more definitions... 
+      </dd>
+    </dl>
+    <table>
+      <caption>
+         One optional caption per table. 
+      </caption>
+      <colgroup>
+         
+        <col />
+         
+        <col />
+         
+      </colgroup>
+      <thead>
+        <tr>
+          <th>
+             One or more header cells in a row... 
+          </th>
+          <td>
+             One or more data cells in a row... 
+          </td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>
+             One or more rows in a row group... 
+          </th>
+          <td />
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th>
+             Zero or more row groups in a table... 
+          </th>
+          <td />
+        </tr>
+      </tbody>
+    </table>
+    <div>
+       
+      <div>
+         
+        <div>
+           ... 
+        </div>
+         
+      </div>
+       
+    </div>
+  </div>
+</div>
+`;

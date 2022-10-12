@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XHTML /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="xhtml"
+  >
+    <h1>
+      XHTML
+    </h1>
+     
+    <p>
+      Paragraph
+    </p>
+     
+    <br />
+    Break
+    <ol>
+       
+      <li>
+        Ordered List Item
+      </li>
+       
+      <li>
+        Ordered List Item
+      </li>
+       
+    </ol>
+    <dl>
+       
+      <dt>
+        Definition Term
+      </dt>
+       
+      <dd>
+        Definition Data
+      </dd>
+       
+    </dl>
+    <iframe
+      src="html_example.html"
+      title="html-example"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HTMLStructure /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="html-structure"
+  >
+    <h1>
+      HTML Structure
+    </h1>
+    <p>
+      Paragraph
+    </p>
+    <ol>
+      <li>
+        Ordered List Item
+      </li>
+      <li>
+        Ordered List Item
+      </li>
+    </ol>
+    <ul>
+      <li>
+        Unordered List Item
+      </li>
+      <li>
+        Unordered List Item
+      </li>
+    </ul>
+    <dl>
+      <dt>
+        Definition Term
+      </dt>
+      <dt>
+        Definition Term
+      </dt>
+      <dd>
+        Definition Data
+      </dd>
+      <dd>
+        Definition Data
+      </dd>
+    </dl>
+    <table>
+      <caption>
+        Table Caption
+      </caption>
+      <colgroup>
+        <col />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <td>
+            row1-col1
+          </td>
+          <td>
+            row1-col2
+          </td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>
+            row3-col1
+          </td>
+          <td>
+            row3-col2
+          </td>
+        </tr>
+      </tfoot>
+      <tbody />
+    </table>
+    <form
+      action="http://www.tipjar.com/cgi-bin/test"
+      id="form1"
+      method="post"
+    >
+      <input
+        name="hidden"
+        title="input hidden"
+        type="hidden"
+        value="Secret"
+      />
+      <input
+        checked=""
+        id="radio1"
+        name="radios"
+        type="radio"
+        value="radio1"
+      />
+      <label
+        for="radio1"
+      >
+        Radio1
+      </label>
+      <input
+        id="radio2"
+        name="radios"
+        type="radio"
+        value="radio2-pushed"
+      />
+      <label
+        for="radio2"
+      >
+        Radio2
+      </label>
+      <input
+        checked=""
+        id="xbox1"
+        name="xbox1"
+        type="checkbox"
+        value="xbox1"
+      />
+      <label
+        for="xbox1"
+      >
+        Checkbox1
+      </label>
+      <label
+        for="inputtext"
+      >
+        Input-text
+      </label>
+      <input
+        id="inputtext"
+        name="inputtext"
+        size="14"
+        type="text"
+        value="Type here"
+      />
+      <label
+        for="select1"
+      >
+        Select
+      </label>
+      <select
+        id="select1"
+        name="select"
+        size="2"
+      >
+        <option
+          value="item1"
+        >
+          Item1
+        </option>
+        <option
+          value="item2"
+        >
+          Item2
+        </option>
+      </select>
+      <label
+        for="textarea"
+      >
+        Textarea
+      </label>
+      <textarea
+        cols="10"
+        id="textarea"
+        name="textarea"
+        rows="2"
+      >
+        Textarea
+      </textarea>
+      <input
+        id="submit1"
+        name="submit1"
+        type="submit"
+        value="Submit"
+      />
+      <input
+        id="reset1"
+        name="reset1"
+        type="reset"
+        value="Reset"
+      />
+      <button
+        id="button1"
+        name="button1"
+        type="submit"
+        value="Button1"
+      >
+        Button
+      </button>
+    </form>
+    <div>
+      Division within a Division
+       
+      <a
+        href="left.html"
+        id="link1"
+      >
+        Link
+      </a>
+      <img
+        alt="alt text"
+        height="20"
+        src="left-right.gif"
+        usemap="#map1"
+        width="20"
+      />
+      <map
+        id="map1"
+        name="map1"
+      >
+        <area
+          alt="left"
+          coords="0,0,10,20"
+          href="left.html"
+          shape="rect"
+        />
+        <area
+          alt="right"
+          coords="10,0,20,20"
+          href="right.html"
+          shape="rect"
+        />
+      </map>
+      <span>
+        span
+      </span>
+      <em>
+        em
+      </em>
+      <strong>
+        strong
+      </strong>
+      <cite>
+        cite
+      </cite>
+      <code>
+        code
+      </code>
+      <kbd>
+        kbd
+      </kbd>
+      <samp>
+        samp
+      </samp>
+      <var>
+        var
+      </var>
+      <abbr>
+        abbr
+      </abbr>
+      <dfn>
+        dfn
+      </dfn>
+      <sub>
+        sub
+      </sub>
+      <sup>
+        sup
+      </sup>
+      <bdo
+        dir="rtl"
+      >
+        backwards
+      </bdo>
+      <object
+        type="application/x-shockwave-flash"
+      >
+        <param
+          name="movie"
+          value="http://myserver.com/movie.swf"
+        />
+        <param
+          name="allowfullscreen"
+          value="true"
+        />
+      </object>
+    </div>
+    <article>
+      <header>
+        <h1>
+          My blog post
+        </h1>
+        <p>
+          <time
+            datetime="2011-10-07T10:00-08:00"
+          />
+        </p>
+      </header>
+      <p>
+        The article element represents a self-contained composition in page that is independently distributable or reusable, e.g. in syndication.
+      </p>
+      <footer>
+        <a
+          href="?comments=1"
+        >
+          Show comments...
+        </a>
+      </footer>
+    </article>
+    <section>
+      <h1>
+        First section heading
+      </h1>
+      <p>
+        The section element represents a generic section of a document (thematic grouping of content).
+      </p>
+    </section>
+    <section>
+      <h1>
+        And one more section
+      </h1>
+      <p>
+        A page could be split into sections for an introduction, news items, contact information, etc.
+      </p>
+    </section>
+    <nav>
+      <h1>
+        Some Navigation
+      </h1>
+      <ul>
+        <li>
+          <a
+            href="articles.html"
+          >
+            Index of articles
+          </a>
+        </li>
+        <li>
+          <a
+            href="contact.html"
+          >
+            Contact information
+          </a>
+        </li>
+      </ul>
+      <p>
+        A nav element doesn't have to contain a list, it can contain other kinds of content as well.
+      </p>
+    </nav>
+    <address>
+      address
+    </address>
+  </div>
+</div>
+`;

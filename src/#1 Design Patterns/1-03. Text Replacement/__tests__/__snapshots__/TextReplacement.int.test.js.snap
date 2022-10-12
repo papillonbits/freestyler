@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextReplacement /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="text-replacement"
+  >
+    <h1>
+      Text Replacement
+    </h1>
+    <h2
+      id="h2"
+    >
+      Heading 2
+      <span />
+    </h2>
+  </div>
+</div>
+`;

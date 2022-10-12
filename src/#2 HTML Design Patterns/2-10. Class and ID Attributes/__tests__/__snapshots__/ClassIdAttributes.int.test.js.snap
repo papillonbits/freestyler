@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassIdAttributes /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="class-and-id-attributes"
+  >
+    <h1>
+      Class and ID Attributes
+    </h1>
+    <div
+      class="vevent"
+      id="hcalendar1"
+    >
+      <h3
+        class="summary"
+      >
+        Calendar Event Summary
+      </h3>
+      <p
+        class="description"
+      >
+        Calendar Event Description
+      </p>
+      <p>
+        From
+        <span
+          class="dtstart"
+          title="2007-05-01T08:30:00-05:00"
+        >
+          01 May 2007 from 8:30am EST
+        </span>
+         
+        to
+        <span
+          class="dtend"
+          title="2007-05-01T09:30:00-05:00"
+        >
+          9:30am EST
+        </span>
+      </p>
+      <p>
+        Location: 
+        <span
+          class="location"
+        >
+          Meeting Location
+        </span>
+      </p>
+      <p>
+        Booked by: 
+        <span
+          class="uid"
+        >
+          globally-unique-id.host.com
+        </span>
+        on
+         
+        <span
+          class="dtstamp"
+          title="20070101T231000Z"
+        >
+          Jan 1, 2007 at 6:00pm
+        </span>
+      </p>
+    </div>
+    <p>
+      See 
+      <a
+        href="http://microformats.org/wiki/hcalendar"
+      >
+        microformats.org
+      </a>
+      for more information about microformats.
+    </p>
+  </div>
+</div>
+`;

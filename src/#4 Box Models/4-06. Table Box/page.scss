@@ -1,0 +1,59 @@
+.table-box {
+  *.container {
+    border: 1px solid gray;
+  }
+
+  *.default {
+    visibility: visible;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: gold;
+  }
+
+  *.table {
+    visibility: visible;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: wheat;
+    table-layout: auto;
+    border-collapse: separate;
+  }
+
+  *.cell {
+    visibility: visible;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: gold;
+  }
+
+  /*
+  Overflow:hidden should be applied to table cells to make them behave
+                  consistently in different browsers.
+  Padding does not apply to tables in Internet Explorer 6.
+  Margin does not apply to table cells.
+  Only background applies to thead, tfoot, tbody, and row.
+  Only background and width work on table columns.
+  Border-collapse:separate makes empty cells display inconsistently between browsers.
+  */
+}

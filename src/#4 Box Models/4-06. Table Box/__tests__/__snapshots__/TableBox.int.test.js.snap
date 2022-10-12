@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableBox /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="table-box"
+  >
+    <h1>
+      Table Box
+    </h1>
+    <div
+      class="container"
+    >
+      <table
+        class="default"
+      >
+        <tr>
+          <td>
+            BEFORE
+          </td>
+        </tr>
+      </table>
+      <table
+        class="table"
+      >
+        <tr>
+          <td
+            class="cell"
+          >
+            Table Cell 
+          </td>
+          <td
+            class="cell"
+          >
+            Table Cell
+          </td>
+        </tr>
+      </table>
+      <table
+        class="default"
+      >
+        <tr>
+          <td>
+            AFTER
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+`;

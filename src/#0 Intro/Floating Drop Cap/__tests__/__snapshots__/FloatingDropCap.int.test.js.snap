@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FloatingDropCap /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="floating-drop-cap"
+  >
+    <p
+      class="floating-drop-cap__hanging-indent"
+    >
+      <span
+        class="floating-drop-cap__hanging-dropcap"
+      >
+        H
+      </span>
+      anging Dropcap.
+    </p>
+  </div>
+</div>
+`;

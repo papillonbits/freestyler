@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiPurposeBlockElements /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="multi-purpose-block-elements"
+  >
+    <div>
+      <div>
+        <h1>
+          Multi-purpose Block Elements
+        </h1>
+      </div>
+    </div>
+    <ol>
+      This content is inside a list but is not inside a list item like it should be.
+      <li>
+         This content is properly nested in a list item. 
+      </li>
+      This content outside a list item invalidates and destroys the structure of a list.
+    </ol>
+    <div>
+      Compare the mixed content in this division with that of the preceding list.
+      <div>
+         This content is inside a nested structural division. 
+      </div>
+      This 
+      <em>
+        mixed content
+      </em>
+       is not invalid, but it destroys the block structure and requires a browser to create
+       
+      <em>
+        anonymous blocks
+      </em>
+       in which to render it.
+    </div>
+    <form
+      action="http://www.tipjar.com/cgi-bin/test"
+      id="form1"
+      method="post"
+    >
+      <ul>
+        <li>
+          <input
+            id="xbox1"
+            name="xbox1"
+            type="checkbox"
+            value="xbox1"
+          />
+          <label
+            for="xbox1"
+          >
+            Checkbox1
+          </label>
+        </li>
+        <li>
+          <input
+            id="submit1"
+            name="submit1"
+            type="submit"
+            value="Submit"
+          />
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+`;

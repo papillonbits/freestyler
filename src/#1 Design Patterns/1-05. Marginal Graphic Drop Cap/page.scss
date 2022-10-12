@@ -1,0 +1,22 @@
+*.marginal-graphic-dropcap__indent {
+  position: relative;
+  margin-left: 120px;
+}
+
+*.marginal-graphic-dropcap__graphic-dropcap {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 120px;
+  height: 90px;
+}
+
+*.marginal-graphic-dropcap__graphic-dropcap span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 90px;
+  margin: 0;
+  background: url('m.jpg') no-repeat;
+}

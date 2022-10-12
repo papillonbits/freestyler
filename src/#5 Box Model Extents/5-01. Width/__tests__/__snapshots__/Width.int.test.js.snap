@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Width /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="width"
+  >
+    <h1>
+      Width
+    </h1>
+    <div
+      id="before"
+    >
+      <div
+        class="parent"
+      >
+        <span
+          class="static-inline-shrinkwrapped box"
+        >
+          Static Inline Shrinkwrapped 
+          <br />
+          Element
+        </span>
+        <div
+          class="spacer"
+        />
+        <img
+          alt="star"
+          class="replaced-inline-shrinkwrapped box"
+          src="mock-file"
+        />
+        <img
+          alt="star"
+          class="replaced-inline-sized box"
+          src="mock-file"
+        />
+        <span
+          class="sized"
+        >
+          <img
+            alt="star"
+            class="replaced-inline-stretched box"
+            src="mock-file"
+          />
+        </span>
+        <div
+          class="spacer"
+        />
+        <div
+          class="static-block-sized box"
+        >
+          Static Block Sized
+        </div>
+        <div
+          class="static-block-stretched box"
+        >
+          Static Block Stretched Auto
+        </div>
+        <div
+          class="spacer"
+        />
+        <table
+          class="table-shrinkwrapped box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Shrinkwrapped
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table
+          class="table-sized box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Sized
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table
+          class="table-stretched box"
+        >
+          <tbody>
+            <tr>
+              <td>
+                Table Stretched 100%
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="spacer"
+        />
+        <span
+          class="float-shrinkwrapped box"
+        >
+          Float Shrinkwrapped
+        </span>
+        <span
+          class="float-sized box"
+        >
+          Float Sized
+        </span>
+        <span
+          class="float-stretched box"
+        >
+          Float Stretched 100%
+        </span>
+        <span
+          class="absolute-shrinkwrapped box"
+        >
+          Absolute Shrinkwrapped
+        </span>
+        <span
+          class="absolute-sized box"
+        >
+          Absolute Sized
+        </span>
+        <span
+          class="absolute-stretched box"
+        >
+          Absolute Stretched Auto
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

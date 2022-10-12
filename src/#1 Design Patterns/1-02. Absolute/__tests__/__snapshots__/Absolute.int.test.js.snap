@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Absolute /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="absolute"
+  >
+    <h1>
+      Absolute
+    </h1>
+    <div
+      class="absolute__positioned"
+    >
+      <span
+        class="absolute__absolute"
+      >
+        Sized Absolute
+      </span>
+    </div>
+  </div>
+</div>
+`;

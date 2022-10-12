@@ -1,0 +1,25 @@
+/* Non-essential styles */
+
+*.absolute__positioned {
+  height: 120px;
+  border: 2px solid black;
+}
+
+*.absolute__absolute {
+  padding: 5px;
+  border: 5px solid black;
+  background-color: gold;
+  text-align: center;
+}
+
+/* Essential Styles */
+
+*.absolute__positioned {
+  position: relative;
+}
+
+*.absolute__absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

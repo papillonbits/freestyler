@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlockBox /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="block-box"
+  >
+    <h1>
+      Block Box
+    </h1>
+    <div
+      class="container"
+    >
+      <div
+        class="default"
+      >
+        BEFORE
+      </div>
+      <div
+        class="box"
+      >
+         
+        ↑ 
+        <br />
+        Top 
+        <br />
+        ← Left       Right → 
+        <br />
+        Bottom 
+        <br />
+        ↓
+         
+      </div>
+      <div
+        class="default"
+      >
+        AFTER
+      </div>
+    </div>
+  </div>
+</div>
+`;

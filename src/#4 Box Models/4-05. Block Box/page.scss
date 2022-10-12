@@ -1,0 +1,32 @@
+.block-box {
+  *.container {
+    border: 1px solid gray;
+    text-align: center;
+  }
+
+  *.default {
+    visibility: visible;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: gold;
+  }
+
+  *.box {
+    display: block;
+    visibility: visible;
+    overflow: auto;
+    width: 220px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: gold;
+  }
+}

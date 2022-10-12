@@ -1,0 +1,42 @@
+.floated-box {
+  *.container {
+    border: 1px solid gray;
+    text-align: center;
+  }
+
+  *.default {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    visibility: visible;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: gold;
+    text-align: left;
+  }
+
+  *.box {
+    visibility: visible;
+    float: left;
+    overflow: auto;
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid gray;
+    background-color: gold;
+  }
+
+  *.small {
+    width: 75px;
+    height: auto;
+  }
+}

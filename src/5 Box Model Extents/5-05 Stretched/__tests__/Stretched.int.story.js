@@ -1,15 +1,15 @@
 import { withTests } from '@storybook/addon-jest'
-import { Sized } from '../Sized'
+import { Stretched } from '../Stretched'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#5 Box Model Extents/5-03. Sized',
-  component: Sized,
+  title: '5 Box Model Extents/5-05 Stretched',
+  component: Stretched,
   decorators: [withTests({ results })],
-  parameters: { jest: ['Sized.int.test.js'] },
+  parameters: { jest: ['Stretched.int.test.js'] },
   excludeStories: ['custom'],
 }
 
 export function regular() {
-  return <Sized />
+  return <Stretched />
 }

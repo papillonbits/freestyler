@@ -1,15 +1,15 @@
 import { withTests } from '@storybook/addon-jest'
-import { Absolute } from '../Absolute'
+import { CascadeOrder } from '../CascadeOrder'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#1 Design Patterns/1-02. Absolute',
-  component: Absolute,
+  title: '1 Design Patterns/1-07 Cascade Order',
+  component: CascadeOrder,
   decorators: [withTests({ results })],
-  parameters: { jest: ['Absolute.int.test.js'] },
+  parameters: { jest: ['CascadeOrder.int.test.js'] },
   excludeStories: ['custom'],
 }
 
 export function regular() {
-  return <Absolute />
+  return <CascadeOrder />
 }

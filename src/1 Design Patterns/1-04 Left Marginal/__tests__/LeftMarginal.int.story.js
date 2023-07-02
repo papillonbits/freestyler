@@ -1,15 +1,15 @@
 import { withTests } from '@storybook/addon-jest'
-import { CSSSyntax } from '../CSSSyntax'
+import { LeftMarginal } from '../LeftMarginal'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#1 Design Patterns/1-06. CSS Syntax',
-  component: CSSSyntax,
+  title: '1 Design Patterns/1-04 Left Marginal',
+  component: LeftMarginal,
   decorators: [withTests({ results })],
-  parameters: { jest: ['CSSSyntax.int.test.js'] },
+  parameters: { jest: ['LeftMarginal.int.test.js'] },
   excludeStories: ['custom'],
 }
 
 export function regular() {
-  return <CSSSyntax />
+  return <LeftMarginal />
 }

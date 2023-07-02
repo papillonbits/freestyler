@@ -3,7 +3,7 @@ import { TableBox } from '../TableBox'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#4 Box Models/4-06. Table Box',
+  title: '4 Box Models/4-06 Table Box',
   component: TableBox,
   decorators: [withTests({ results })],
   parameters: { jest: ['TableBox.int.test.js'] },

@@ -1,15 +1,15 @@
 import { withTests } from '@storybook/addon-jest'
-import { AbsoluteBox } from '../AbsoluteBox'
+import { BoxModel } from '../BoxModel'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#4 Box Models/4-07. Absolute Box',
-  component: AbsoluteBox,
+  title: '4 Box Models/4-02 Box Model',
+  component: BoxModel,
   decorators: [withTests({ results })],
-  parameters: { jest: ['AbsoluteBox.int.test.js'] },
+  parameters: { jest: ['BoxModel.int.test.js'] },
   excludeStories: ['custom'],
 }
 
 export function regular() {
-  return <AbsoluteBox />
+  return <BoxModel />
 }

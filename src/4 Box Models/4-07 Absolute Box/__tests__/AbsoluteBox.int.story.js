@@ -1,15 +1,15 @@
 import { withTests } from '@storybook/addon-jest'
-import { InlineBlockBox } from '../InlineBlockBox'
+import { AbsoluteBox } from '../AbsoluteBox'
 import results from '../../../../.jest-test-results.json'
 
 export default {
-  title: '#4 Box Models/4-04. Inline Block Box',
-  component: InlineBlockBox,
+  title: '4 Box Models/4-07 Absolute Box',
+  component: AbsoluteBox,
   decorators: [withTests({ results })],
-  parameters: { jest: ['InlineBlockBox.int.test.js'] },
+  parameters: { jest: ['AbsoluteBox.int.test.js'] },
   excludeStories: ['custom'],
 }
 
 export function regular() {
-  return <InlineBlockBox />
+  return <AbsoluteBox />
 }
